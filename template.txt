@@ -1,0 +1,29 @@
+*** Settings ***
+# Suite Setup       Open Browser To Login Page
+# Suite Teardown    Close Browser
+# Test Setup        Go To Login Page
+# Test Template     Login With Invalid Credentials Should Fail
+# Resource          resource.txt
+# Library	TemplateLibrary
+Library	TestKeyword0
+
+*** Test Cases ***
+Print Something
+	log	hello  
+	${sum}=	returnSum	4	5
+	log	${sum}   
+	Should Be Equal As Integers	${sum}	9        
+
+
+*** Keywords ***
+Login With Invalid Credentials Should Fail
+    [Arguments]    ${username}    ${password}
+    Input Username    ${username}
+    Input Password    ${password}
+    Submit Credentials
+    Login Should Have Failed
+
+Login Should Have Failed
+    Location Should Be    ${ERROR URL}
+    Title Should Be    Error Page
+                    

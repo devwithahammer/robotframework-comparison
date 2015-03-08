@@ -1,0 +1,2910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 2.8.7 (Jython 2.5.3 on java1.6.0_20)" generated="20150308 17:52:24.036">
+<suite source="/home/marc/robot/testKeywords" id="s1" name="testKeywords">
+<suite source="/home/marc/robot/testKeywords/testCase0" id="s1-s1" name="testCase0">
+<suite source="/home/marc/robot/testKeywords/testCase0/testCase0.txt" id="s1-s1-s1" name="testCase0">
+<test id="s1-s1-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword0.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:24.824" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:24.823" starttime="20150308 17:52:24.821"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:24.828" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:24.828" starttime="20150308 17:52:24.825"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:24.830" starttime="20150308 17:52:24.817"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:24.832" starttime="20150308 17:52:24.790"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:24.835" starttime="20150308 17:52:24.771"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1" id="s1-s2" name="testCase1">
+<suite source="/home/marc/robot/testKeywords/testCase1/testCase1.txt" id="s1-s2-s1" name="testCase1">
+<test id="s1-s2-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:24.890" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:24.890" starttime="20150308 17:52:24.888"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:24.894" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:24.895" starttime="20150308 17:52:24.892"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:24.896" starttime="20150308 17:52:24.884"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:24.898" starttime="20150308 17:52:24.857"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:24.902" starttime="20150308 17:52:24.839"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase10" id="s1-s3" name="testCase10">
+<suite source="/home/marc/robot/testKeywords/testCase10/testCase10.txt" id="s1-s3-s1" name="testCase10">
+<test id="s1-s3-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword10.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:24.958" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:24.957" starttime="20150308 17:52:24.955"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:24.961" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:24.962" starttime="20150308 17:52:24.959"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:24.963" starttime="20150308 17:52:24.951"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:24.965" starttime="20150308 17:52:24.925"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:24.969" starttime="20150308 17:52:24.906"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase100" id="s1-s4" name="testCase100">
+<suite source="/home/marc/robot/testKeywords/testCase100/testCase100.txt" id="s1-s4-s1" name="testCase100">
+<test id="s1-s4-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword100.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.024" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:25.023" starttime="20150308 17:52:25.021"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.027" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:25.028" starttime="20150308 17:52:25.025"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:25.029" starttime="20150308 17:52:25.019"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.030" starttime="20150308 17:52:24.992"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.034" starttime="20150308 17:52:24.973"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1000" id="s1-s5" name="testCase1000">
+<suite source="/home/marc/robot/testKeywords/testCase1000/testCase1000.txt" id="s1-s5-s1" name="testCase1000">
+<test id="s1-s5-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1000.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.086" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:25.086" starttime="20150308 17:52:25.084"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.089" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:25.090" starttime="20150308 17:52:25.087"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:25.091" starttime="20150308 17:52:25.081"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.093" starttime="20150308 17:52:25.056"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.098" starttime="20150308 17:52:25.039"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1001" id="s1-s6" name="testCase1001">
+<suite source="/home/marc/robot/testKeywords/testCase1001/testCase1001.txt" id="s1-s6-s1" name="testCase1001">
+<test id="s1-s6-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1001.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.147" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:25.146" starttime="20150308 17:52:25.144"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.150" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:25.150" starttime="20150308 17:52:25.148"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:25.151" starttime="20150308 17:52:25.142"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.153" starttime="20150308 17:52:25.117"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.159" starttime="20150308 17:52:25.101"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1002" id="s1-s7" name="testCase1002">
+<suite source="/home/marc/robot/testKeywords/testCase1002/testCase1002.txt" id="s1-s7-s1" name="testCase1002">
+<test id="s1-s7-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1002.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.285" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:25.284" starttime="20150308 17:52:25.283"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.287" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:25.288" starttime="20150308 17:52:25.286"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:25.289" starttime="20150308 17:52:25.278"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.290" starttime="20150308 17:52:25.253"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.295" starttime="20150308 17:52:25.162"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1003" id="s1-s8" name="testCase1003">
+<suite source="/home/marc/robot/testKeywords/testCase1003/testCase1003.txt" id="s1-s8-s1" name="testCase1003">
+<test id="s1-s8-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1003.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.370" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:25.370" starttime="20150308 17:52:25.364"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.382" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:25.383" starttime="20150308 17:52:25.371"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:25.384" starttime="20150308 17:52:25.361"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.387" starttime="20150308 17:52:25.319"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.393" starttime="20150308 17:52:25.298"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1004" id="s1-s9" name="testCase1004">
+<suite source="/home/marc/robot/testKeywords/testCase1004/testCase1004.txt" id="s1-s9-s1" name="testCase1004">
+<test id="s1-s9-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1004.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.467" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:25.467" starttime="20150308 17:52:25.465"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.469" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:25.470" starttime="20150308 17:52:25.468"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:25.471" starttime="20150308 17:52:25.463"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.472" starttime="20150308 17:52:25.429"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.481" starttime="20150308 17:52:25.397"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1005" id="s1-s10" name="testCase1005">
+<suite source="/home/marc/robot/testKeywords/testCase1005/testCase1005.txt" id="s1-s10-s1" name="testCase1005">
+<test id="s1-s10-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1005.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.522" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:25.522" starttime="20150308 17:52:25.521"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.525" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:25.526" starttime="20150308 17:52:25.523"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:25.526" starttime="20150308 17:52:25.518"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.528" starttime="20150308 17:52:25.499"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.530" starttime="20150308 17:52:25.484"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1006" id="s1-s11" name="testCase1006">
+<suite source="/home/marc/robot/testKeywords/testCase1006/testCase1006.txt" id="s1-s11-s1" name="testCase1006">
+<test id="s1-s11-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1006.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.570" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:25.569" starttime="20150308 17:52:25.568"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.572" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:25.573" starttime="20150308 17:52:25.570"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:25.573" starttime="20150308 17:52:25.566"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.575" starttime="20150308 17:52:25.547"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.577" starttime="20150308 17:52:25.532"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1007" id="s1-s12" name="testCase1007">
+<suite source="/home/marc/robot/testKeywords/testCase1007/testCase1007.txt" id="s1-s12-s1" name="testCase1007">
+<test id="s1-s12-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1007.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.616" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:25.616" starttime="20150308 17:52:25.614"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.618" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:25.619" starttime="20150308 17:52:25.617"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:25.619" starttime="20150308 17:52:25.612"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.621" starttime="20150308 17:52:25.593"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.623" starttime="20150308 17:52:25.579"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1008" id="s1-s13" name="testCase1008">
+<suite source="/home/marc/robot/testKeywords/testCase1008/testCase1008.txt" id="s1-s13-s1" name="testCase1008">
+<test id="s1-s13-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1008.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.662" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:25.662" starttime="20150308 17:52:25.660"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.664" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:25.665" starttime="20150308 17:52:25.663"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:25.666" starttime="20150308 17:52:25.659"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.667" starttime="20150308 17:52:25.639"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.669" starttime="20150308 17:52:25.625"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1009" id="s1-s14" name="testCase1009">
+<suite source="/home/marc/robot/testKeywords/testCase1009/testCase1009.txt" id="s1-s14-s1" name="testCase1009">
+<test id="s1-s14-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1009.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.709" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:25.708" starttime="20150308 17:52:25.707"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.711" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:25.712" starttime="20150308 17:52:25.709"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:25.713" starttime="20150308 17:52:25.705"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.714" starttime="20150308 17:52:25.686"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.717" starttime="20150308 17:52:25.672"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase101" id="s1-s15" name="testCase101">
+<suite source="/home/marc/robot/testKeywords/testCase101/testCase101.txt" id="s1-s15-s1" name="testCase101">
+<test id="s1-s15-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword101.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.761" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:25.761" starttime="20150308 17:52:25.760"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.764" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:25.765" starttime="20150308 17:52:25.762"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:25.765" starttime="20150308 17:52:25.758"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.767" starttime="20150308 17:52:25.738"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.770" starttime="20150308 17:52:25.723"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1010" id="s1-s16" name="testCase1010">
+<suite source="/home/marc/robot/testKeywords/testCase1010/testCase1010.txt" id="s1-s16-s1" name="testCase1010">
+<test id="s1-s16-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1010.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.876" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:25.875" starttime="20150308 17:52:25.874"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.878" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:25.878" starttime="20150308 17:52:25.876"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:25.879" starttime="20150308 17:52:25.872"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.880" starttime="20150308 17:52:25.785"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.882" starttime="20150308 17:52:25.772"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1011" id="s1-s17" name="testCase1011">
+<suite source="/home/marc/robot/testKeywords/testCase1011/testCase1011.txt" id="s1-s17-s1" name="testCase1011">
+<test id="s1-s17-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1011.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.922" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:25.922" starttime="20150308 17:52:25.921"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.925" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:25.925" starttime="20150308 17:52:25.923"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:25.926" starttime="20150308 17:52:25.919"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.927" starttime="20150308 17:52:25.900"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.930" starttime="20150308 17:52:25.885"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1012" id="s1-s18" name="testCase1012">
+<suite source="/home/marc/robot/testKeywords/testCase1012/testCase1012.txt" id="s1-s18-s1" name="testCase1012">
+<test id="s1-s18-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1012.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.969" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:25.969" starttime="20150308 17:52:25.967"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:25.971" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:25.972" starttime="20150308 17:52:25.970"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:25.972" starttime="20150308 17:52:25.965"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.974" starttime="20150308 17:52:25.947"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:25.976" starttime="20150308 17:52:25.932"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1013" id="s1-s19" name="testCase1013">
+<suite source="/home/marc/robot/testKeywords/testCase1013/testCase1013.txt" id="s1-s19-s1" name="testCase1013">
+<test id="s1-s19-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1013.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.013" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:26.013" starttime="20150308 17:52:26.012"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.016" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:26.016" starttime="20150308 17:52:26.014"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:26.017" starttime="20150308 17:52:26.010"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.018" starttime="20150308 17:52:25.991"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.020" starttime="20150308 17:52:25.978"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1014" id="s1-s20" name="testCase1014">
+<suite source="/home/marc/robot/testKeywords/testCase1014/testCase1014.txt" id="s1-s20-s1" name="testCase1014">
+<test id="s1-s20-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1014.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.058" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:26.058" starttime="20150308 17:52:26.056"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.061" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:26.061" starttime="20150308 17:52:26.059"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:26.062" starttime="20150308 17:52:26.055"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.063" starttime="20150308 17:52:26.036"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.065" starttime="20150308 17:52:26.022"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1015" id="s1-s21" name="testCase1015">
+<suite source="/home/marc/robot/testKeywords/testCase1015/testCase1015.txt" id="s1-s21-s1" name="testCase1015">
+<test id="s1-s21-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1015.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.103" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:26.103" starttime="20150308 17:52:26.101"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.105" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:26.106" starttime="20150308 17:52:26.104"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:26.106" starttime="20150308 17:52:26.099"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.108" starttime="20150308 17:52:26.081"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.110" starttime="20150308 17:52:26.067"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1016" id="s1-s22" name="testCase1016">
+<suite source="/home/marc/robot/testKeywords/testCase1016/testCase1016.txt" id="s1-s22-s1" name="testCase1016">
+<test id="s1-s22-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1016.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.147" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:26.147" starttime="20150308 17:52:26.145"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.149" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:26.150" starttime="20150308 17:52:26.148"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:26.150" starttime="20150308 17:52:26.143"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.152" starttime="20150308 17:52:26.125"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.153" starttime="20150308 17:52:26.112"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1017" id="s1-s23" name="testCase1017">
+<suite source="/home/marc/robot/testKeywords/testCase1017/testCase1017.txt" id="s1-s23-s1" name="testCase1017">
+<test id="s1-s23-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1017.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.190" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:26.190" starttime="20150308 17:52:26.189"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.193" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:26.193" starttime="20150308 17:52:26.191"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:26.194" starttime="20150308 17:52:26.187"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.195" starttime="20150308 17:52:26.169"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.197" starttime="20150308 17:52:26.156"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1018" id="s1-s24" name="testCase1018">
+<suite source="/home/marc/robot/testKeywords/testCase1018/testCase1018.txt" id="s1-s24-s1" name="testCase1018">
+<test id="s1-s24-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1018.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.234" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:26.234" starttime="20150308 17:52:26.232"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.236" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:26.237" starttime="20150308 17:52:26.235"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:26.238" starttime="20150308 17:52:26.230"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.239" starttime="20150308 17:52:26.212"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.241" starttime="20150308 17:52:26.199"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1019" id="s1-s25" name="testCase1019">
+<suite source="/home/marc/robot/testKeywords/testCase1019/testCase1019.txt" id="s1-s25-s1" name="testCase1019">
+<test id="s1-s25-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1019.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.278" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:26.277" starttime="20150308 17:52:26.276"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.280" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:26.281" starttime="20150308 17:52:26.278"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:26.340" starttime="20150308 17:52:26.274"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.342" starttime="20150308 17:52:26.256"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.344" starttime="20150308 17:52:26.243"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase102" id="s1-s26" name="testCase102">
+<suite source="/home/marc/robot/testKeywords/testCase102/testCase102.txt" id="s1-s26-s1" name="testCase102">
+<test id="s1-s26-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword102.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.385" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:26.385" starttime="20150308 17:52:26.382"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.388" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:26.388" starttime="20150308 17:52:26.386"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:26.389" starttime="20150308 17:52:26.380"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.390" starttime="20150308 17:52:26.360"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.392" starttime="20150308 17:52:26.346"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1020" id="s1-s27" name="testCase1020">
+<suite source="/home/marc/robot/testKeywords/testCase1020/testCase1020.txt" id="s1-s27-s1" name="testCase1020">
+<test id="s1-s27-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1020.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.445" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:26.445" starttime="20150308 17:52:26.440"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.447" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:26.448" starttime="20150308 17:52:26.446"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:26.449" starttime="20150308 17:52:26.432"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.450" starttime="20150308 17:52:26.407"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.452" starttime="20150308 17:52:26.394"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1021" id="s1-s28" name="testCase1021">
+<suite source="/home/marc/robot/testKeywords/testCase1021/testCase1021.txt" id="s1-s28-s1" name="testCase1021">
+<test id="s1-s28-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1021.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.488" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:26.488" starttime="20150308 17:52:26.487"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.491" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:26.491" starttime="20150308 17:52:26.489"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:26.492" starttime="20150308 17:52:26.485"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.493" starttime="20150308 17:52:26.467"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.495" starttime="20150308 17:52:26.454"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1022" id="s1-s29" name="testCase1022">
+<suite source="/home/marc/robot/testKeywords/testCase1022/testCase1022.txt" id="s1-s29-s1" name="testCase1022">
+<test id="s1-s29-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1022.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.536" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:26.536" starttime="20150308 17:52:26.535"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.539" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:26.539" starttime="20150308 17:52:26.537"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:26.540" starttime="20150308 17:52:26.533"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.541" starttime="20150308 17:52:26.510"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.543" starttime="20150308 17:52:26.497"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1023" id="s1-s30" name="testCase1023">
+<suite source="/home/marc/robot/testKeywords/testCase1023/testCase1023.txt" id="s1-s30-s1" name="testCase1023">
+<test id="s1-s30-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1023.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.579" level="INFO">${sum} = 9</msg>
+<status status="PASS" endtime="20150308 17:52:26.579" starttime="20150308 17:52:26.577"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${sum}</arg>
+<arg>9</arg>
+</arguments>
+<msg timestamp="20150308 17:52:26.581" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20150308 17:52:26.582" starttime="20150308 17:52:26.580"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20150308 17:52:26.583" starttime="20150308 17:52:26.576"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.584" starttime="20150308 17:52:26.558"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150308 17:52:26.586" starttime="20150308 17:52:26.545"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1024" id="s1-s31" name="testCase1024">
+<suite source="/home/marc/robot/testKeywords/testCase1024/testCase1024.txt" id="s1-s31-s1" name="testCase1024">
+<test id="s1-s31-s1-t1" name="Check sum">
+<kw type="kw" name="${sum} = TestKeyword1024.Return Sum">
+<doc></doc>
+<arguments>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<status status="FAIL" endtime="20150308 17:52:26.627" starttime="20150308 17:52:26.625"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.628" starttime="20150308 17:52:26.623">Execution terminated by signal</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.629" starttime="20150308 17:52:26.601"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.632" starttime="20150308 17:52:26.588"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1025" id="s1-s32" name="testCase1025">
+<suite source="/home/marc/robot/testKeywords/testCase1025/testCase1025.txt" id="s1-s32-s1" name="testCase1025">
+<test id="s1-s32-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.643" starttime="20150308 17:52:26.641">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.644" starttime="20150308 17:52:26.638"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.647" starttime="20150308 17:52:26.634"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1026" id="s1-s33" name="testCase1026">
+<suite source="/home/marc/robot/testKeywords/testCase1026/testCase1026.txt" id="s1-s33-s1" name="testCase1026">
+<test id="s1-s33-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.658" starttime="20150308 17:52:26.656">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.659" starttime="20150308 17:52:26.653"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.662" starttime="20150308 17:52:26.649"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1027" id="s1-s34" name="testCase1027">
+<suite source="/home/marc/robot/testKeywords/testCase1027/testCase1027.txt" id="s1-s34-s1" name="testCase1027">
+<test id="s1-s34-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.673" starttime="20150308 17:52:26.671">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.675" starttime="20150308 17:52:26.668"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.677" starttime="20150308 17:52:26.664"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1028" id="s1-s35" name="testCase1028">
+<suite source="/home/marc/robot/testKeywords/testCase1028/testCase1028.txt" id="s1-s35-s1" name="testCase1028">
+<test id="s1-s35-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.686" starttime="20150308 17:52:26.684">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.687" starttime="20150308 17:52:26.682"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.690" starttime="20150308 17:52:26.679"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1029" id="s1-s36" name="testCase1029">
+<suite source="/home/marc/robot/testKeywords/testCase1029/testCase1029.txt" id="s1-s36-s1" name="testCase1029">
+<test id="s1-s36-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.770" starttime="20150308 17:52:26.704">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.772" starttime="20150308 17:52:26.698"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.773" starttime="20150308 17:52:26.693"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase103" id="s1-s37" name="testCase103">
+<suite source="/home/marc/robot/testKeywords/testCase103/testCase103.txt" id="s1-s37-s1" name="testCase103">
+<test id="s1-s37-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.782" starttime="20150308 17:52:26.781">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.783" starttime="20150308 17:52:26.778"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.785" starttime="20150308 17:52:26.775"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1030" id="s1-s38" name="testCase1030">
+<suite source="/home/marc/robot/testKeywords/testCase1030/testCase1030.txt" id="s1-s38-s1" name="testCase1030">
+<test id="s1-s38-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.794" starttime="20150308 17:52:26.792">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.795" starttime="20150308 17:52:26.790"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.797" starttime="20150308 17:52:26.787"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1031" id="s1-s39" name="testCase1031">
+<suite source="/home/marc/robot/testKeywords/testCase1031/testCase1031.txt" id="s1-s39-s1" name="testCase1031">
+<test id="s1-s39-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.805" starttime="20150308 17:52:26.804">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.807" starttime="20150308 17:52:26.801"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.808" starttime="20150308 17:52:26.799"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1032" id="s1-s40" name="testCase1032">
+<suite source="/home/marc/robot/testKeywords/testCase1032/testCase1032.txt" id="s1-s40-s1" name="testCase1032">
+<test id="s1-s40-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.817" starttime="20150308 17:52:26.815">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.818" starttime="20150308 17:52:26.813"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.820" starttime="20150308 17:52:26.810"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1033" id="s1-s41" name="testCase1033">
+<suite source="/home/marc/robot/testKeywords/testCase1033/testCase1033.txt" id="s1-s41-s1" name="testCase1033">
+<test id="s1-s41-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.829" starttime="20150308 17:52:26.827">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.830" starttime="20150308 17:52:26.825"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.832" starttime="20150308 17:52:26.822"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1034" id="s1-s42" name="testCase1034">
+<suite source="/home/marc/robot/testKeywords/testCase1034/testCase1034.txt" id="s1-s42-s1" name="testCase1034">
+<test id="s1-s42-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.840" starttime="20150308 17:52:26.839">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.842" starttime="20150308 17:52:26.836"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.843" starttime="20150308 17:52:26.834"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1035" id="s1-s43" name="testCase1035">
+<suite source="/home/marc/robot/testKeywords/testCase1035/testCase1035.txt" id="s1-s43-s1" name="testCase1035">
+<test id="s1-s43-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.859" starttime="20150308 17:52:26.857">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.860" starttime="20150308 17:52:26.855"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.862" starttime="20150308 17:52:26.845"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1036" id="s1-s44" name="testCase1036">
+<suite source="/home/marc/robot/testKeywords/testCase1036/testCase1036.txt" id="s1-s44-s1" name="testCase1036">
+<test id="s1-s44-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.870" starttime="20150308 17:52:26.869">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.872" starttime="20150308 17:52:26.867"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.874" starttime="20150308 17:52:26.864"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1037" id="s1-s45" name="testCase1037">
+<suite source="/home/marc/robot/testKeywords/testCase1037/testCase1037.txt" id="s1-s45-s1" name="testCase1037">
+<test id="s1-s45-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.884" starttime="20150308 17:52:26.880">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.885" starttime="20150308 17:52:26.878"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.887" starttime="20150308 17:52:26.875"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1038" id="s1-s46" name="testCase1038">
+<suite source="/home/marc/robot/testKeywords/testCase1038/testCase1038.txt" id="s1-s46-s1" name="testCase1038">
+<test id="s1-s46-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.895" starttime="20150308 17:52:26.894">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.896" starttime="20150308 17:52:26.891"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.898" starttime="20150308 17:52:26.889"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1039" id="s1-s47" name="testCase1039">
+<suite source="/home/marc/robot/testKeywords/testCase1039/testCase1039.txt" id="s1-s47-s1" name="testCase1039">
+<test id="s1-s47-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.906" starttime="20150308 17:52:26.905">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.908" starttime="20150308 17:52:26.903"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.910" starttime="20150308 17:52:26.900"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase104" id="s1-s48" name="testCase104">
+<suite source="/home/marc/robot/testKeywords/testCase104/testCase104.txt" id="s1-s48-s1" name="testCase104">
+<test id="s1-s48-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.918" starttime="20150308 17:52:26.916">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.919" starttime="20150308 17:52:26.914"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.921" starttime="20150308 17:52:26.911"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1040" id="s1-s49" name="testCase1040">
+<suite source="/home/marc/robot/testKeywords/testCase1040/testCase1040.txt" id="s1-s49-s1" name="testCase1040">
+<test id="s1-s49-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.929" starttime="20150308 17:52:26.928">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.930" starttime="20150308 17:52:26.925"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.932" starttime="20150308 17:52:26.923"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1041" id="s1-s50" name="testCase1041">
+<suite source="/home/marc/robot/testKeywords/testCase1041/testCase1041.txt" id="s1-s50-s1" name="testCase1041">
+<test id="s1-s50-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.940" starttime="20150308 17:52:26.939">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.941" starttime="20150308 17:52:26.936"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.943" starttime="20150308 17:52:26.934"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1042" id="s1-s51" name="testCase1042">
+<suite source="/home/marc/robot/testKeywords/testCase1042/testCase1042.txt" id="s1-s51-s1" name="testCase1042">
+<test id="s1-s51-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.951" starttime="20150308 17:52:26.950">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.952" starttime="20150308 17:52:26.947"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.954" starttime="20150308 17:52:26.945"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1043" id="s1-s52" name="testCase1043">
+<suite source="/home/marc/robot/testKeywords/testCase1043/testCase1043.txt" id="s1-s52-s1" name="testCase1043">
+<test id="s1-s52-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.962" starttime="20150308 17:52:26.961">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.963" starttime="20150308 17:52:26.958"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.965" starttime="20150308 17:52:26.956"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1044" id="s1-s53" name="testCase1044">
+<suite source="/home/marc/robot/testKeywords/testCase1044/testCase1044.txt" id="s1-s53-s1" name="testCase1044">
+<test id="s1-s53-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:26.973" starttime="20150308 17:52:26.971">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.974" starttime="20150308 17:52:26.969"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:26.976" starttime="20150308 17:52:26.967"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1045" id="s1-s54" name="testCase1045">
+<suite source="/home/marc/robot/testKeywords/testCase1045/testCase1045.txt" id="s1-s54-s1" name="testCase1045">
+<test id="s1-s54-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.052" starttime="20150308 17:52:26.982">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.056" starttime="20150308 17:52:26.980"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.064" starttime="20150308 17:52:26.977"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1046" id="s1-s55" name="testCase1046">
+<suite source="/home/marc/robot/testKeywords/testCase1046/testCase1046.txt" id="s1-s55-s1" name="testCase1046">
+<test id="s1-s55-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.075" starttime="20150308 17:52:27.074">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.076" starttime="20150308 17:52:27.071"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.078" starttime="20150308 17:52:27.069"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1047" id="s1-s56" name="testCase1047">
+<suite source="/home/marc/robot/testKeywords/testCase1047/testCase1047.txt" id="s1-s56-s1" name="testCase1047">
+<test id="s1-s56-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.089" starttime="20150308 17:52:27.084">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.090" starttime="20150308 17:52:27.082"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.092" starttime="20150308 17:52:27.080"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1048" id="s1-s57" name="testCase1048">
+<suite source="/home/marc/robot/testKeywords/testCase1048/testCase1048.txt" id="s1-s57-s1" name="testCase1048">
+<test id="s1-s57-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.100" starttime="20150308 17:52:27.099">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.101" starttime="20150308 17:52:27.096"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.103" starttime="20150308 17:52:27.094"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1049" id="s1-s58" name="testCase1049">
+<suite source="/home/marc/robot/testKeywords/testCase1049/testCase1049.txt" id="s1-s58-s1" name="testCase1049">
+<test id="s1-s58-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.111" starttime="20150308 17:52:27.109">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.112" starttime="20150308 17:52:27.107"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.114" starttime="20150308 17:52:27.105"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase105" id="s1-s59" name="testCase105">
+<suite source="/home/marc/robot/testKeywords/testCase105/testCase105.txt" id="s1-s59-s1" name="testCase105">
+<test id="s1-s59-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.122" starttime="20150308 17:52:27.121">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.123" starttime="20150308 17:52:27.119"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.125" starttime="20150308 17:52:27.116"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1050" id="s1-s60" name="testCase1050">
+<suite source="/home/marc/robot/testKeywords/testCase1050/testCase1050.txt" id="s1-s60-s1" name="testCase1050">
+<test id="s1-s60-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.133" starttime="20150308 17:52:27.132">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.134" starttime="20150308 17:52:27.129"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.136" starttime="20150308 17:52:27.127"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1051" id="s1-s61" name="testCase1051">
+<suite source="/home/marc/robot/testKeywords/testCase1051/testCase1051.txt" id="s1-s61-s1" name="testCase1051">
+<test id="s1-s61-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.144" starttime="20150308 17:52:27.142">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.145" starttime="20150308 17:52:27.140"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.147" starttime="20150308 17:52:27.138"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1052" id="s1-s62" name="testCase1052">
+<suite source="/home/marc/robot/testKeywords/testCase1052/testCase1052.txt" id="s1-s62-s1" name="testCase1052">
+<test id="s1-s62-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.159" starttime="20150308 17:52:27.153">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.161" starttime="20150308 17:52:27.151"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.163" starttime="20150308 17:52:27.148"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1053" id="s1-s63" name="testCase1053">
+<suite source="/home/marc/robot/testKeywords/testCase1053/testCase1053.txt" id="s1-s63-s1" name="testCase1053">
+<test id="s1-s63-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.170" starttime="20150308 17:52:27.169">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.171" starttime="20150308 17:52:27.167"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.173" starttime="20150308 17:52:27.164"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1054" id="s1-s64" name="testCase1054">
+<suite source="/home/marc/robot/testKeywords/testCase1054/testCase1054.txt" id="s1-s64-s1" name="testCase1054">
+<test id="s1-s64-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.181" starttime="20150308 17:52:27.180">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.182" starttime="20150308 17:52:27.177"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.184" starttime="20150308 17:52:27.175"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1055" id="s1-s65" name="testCase1055">
+<suite source="/home/marc/robot/testKeywords/testCase1055/testCase1055.txt" id="s1-s65-s1" name="testCase1055">
+<test id="s1-s65-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.191" starttime="20150308 17:52:27.190">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.193" starttime="20150308 17:52:27.188"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.194" starttime="20150308 17:52:27.186"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1056" id="s1-s66" name="testCase1056">
+<suite source="/home/marc/robot/testKeywords/testCase1056/testCase1056.txt" id="s1-s66-s1" name="testCase1056">
+<test id="s1-s66-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.202" starttime="20150308 17:52:27.201">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.203" starttime="20150308 17:52:27.199"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.205" starttime="20150308 17:52:27.196"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1057" id="s1-s67" name="testCase1057">
+<suite source="/home/marc/robot/testKeywords/testCase1057/testCase1057.txt" id="s1-s67-s1" name="testCase1057">
+<test id="s1-s67-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.213" starttime="20150308 17:52:27.211">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.214" starttime="20150308 17:52:27.209"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.216" starttime="20150308 17:52:27.207"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1058" id="s1-s68" name="testCase1058">
+<suite source="/home/marc/robot/testKeywords/testCase1058/testCase1058.txt" id="s1-s68-s1" name="testCase1058">
+<test id="s1-s68-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.223" starttime="20150308 17:52:27.222">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.224" starttime="20150308 17:52:27.220"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.226" starttime="20150308 17:52:27.217"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1059" id="s1-s69" name="testCase1059">
+<suite source="/home/marc/robot/testKeywords/testCase1059/testCase1059.txt" id="s1-s69-s1" name="testCase1059">
+<test id="s1-s69-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.233" starttime="20150308 17:52:27.232">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.235" starttime="20150308 17:52:27.230"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.236" starttime="20150308 17:52:27.228"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase106" id="s1-s70" name="testCase106">
+<suite source="/home/marc/robot/testKeywords/testCase106/testCase106.txt" id="s1-s70-s1" name="testCase106">
+<test id="s1-s70-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.251" starttime="20150308 17:52:27.250">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.253" starttime="20150308 17:52:27.248"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.254" starttime="20150308 17:52:27.238"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1060" id="s1-s71" name="testCase1060">
+<suite source="/home/marc/robot/testKeywords/testCase1060/testCase1060.txt" id="s1-s71-s1" name="testCase1060">
+<test id="s1-s71-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.329" starttime="20150308 17:52:27.328">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.331" starttime="20150308 17:52:27.258"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.333" starttime="20150308 17:52:27.256"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1061" id="s1-s72" name="testCase1061">
+<suite source="/home/marc/robot/testKeywords/testCase1061/testCase1061.txt" id="s1-s72-s1" name="testCase1061">
+<test id="s1-s72-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.341" starttime="20150308 17:52:27.340">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.342" starttime="20150308 17:52:27.337"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.344" starttime="20150308 17:52:27.335"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1062" id="s1-s73" name="testCase1062">
+<suite source="/home/marc/robot/testKeywords/testCase1062/testCase1062.txt" id="s1-s73-s1" name="testCase1062">
+<test id="s1-s73-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.351" starttime="20150308 17:52:27.350">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.353" starttime="20150308 17:52:27.348"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.355" starttime="20150308 17:52:27.345"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1063" id="s1-s74" name="testCase1063">
+<suite source="/home/marc/robot/testKeywords/testCase1063/testCase1063.txt" id="s1-s74-s1" name="testCase1063">
+<test id="s1-s74-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.362" starttime="20150308 17:52:27.361">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.363" starttime="20150308 17:52:27.359"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.365" starttime="20150308 17:52:27.356"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1064" id="s1-s75" name="testCase1064">
+<suite source="/home/marc/robot/testKeywords/testCase1064/testCase1064.txt" id="s1-s75-s1" name="testCase1064">
+<test id="s1-s75-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.374" starttime="20150308 17:52:27.372">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.375" starttime="20150308 17:52:27.370"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.377" starttime="20150308 17:52:27.367"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1065" id="s1-s76" name="testCase1065">
+<suite source="/home/marc/robot/testKeywords/testCase1065/testCase1065.txt" id="s1-s76-s1" name="testCase1065">
+<test id="s1-s76-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.384" starttime="20150308 17:52:27.383">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.385" starttime="20150308 17:52:27.381"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.388" starttime="20150308 17:52:27.378"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1066" id="s1-s77" name="testCase1066">
+<suite source="/home/marc/robot/testKeywords/testCase1066/testCase1066.txt" id="s1-s77-s1" name="testCase1066">
+<test id="s1-s77-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.396" starttime="20150308 17:52:27.395">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.397" starttime="20150308 17:52:27.393"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.399" starttime="20150308 17:52:27.390"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1067" id="s1-s78" name="testCase1067">
+<suite source="/home/marc/robot/testKeywords/testCase1067/testCase1067.txt" id="s1-s78-s1" name="testCase1067">
+<test id="s1-s78-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.406" starttime="20150308 17:52:27.405">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.407" starttime="20150308 17:52:27.403"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.409" starttime="20150308 17:52:27.401"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1068" id="s1-s79" name="testCase1068">
+<suite source="/home/marc/robot/testKeywords/testCase1068/testCase1068.txt" id="s1-s79-s1" name="testCase1068">
+<test id="s1-s79-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.417" starttime="20150308 17:52:27.415">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.418" starttime="20150308 17:52:27.413"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.420" starttime="20150308 17:52:27.411"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1069" id="s1-s80" name="testCase1069">
+<suite source="/home/marc/robot/testKeywords/testCase1069/testCase1069.txt" id="s1-s80-s1" name="testCase1069">
+<test id="s1-s80-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.436" starttime="20150308 17:52:27.432">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.438" starttime="20150308 17:52:27.430"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.440" starttime="20150308 17:52:27.422"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase107" id="s1-s81" name="testCase107">
+<suite source="/home/marc/robot/testKeywords/testCase107/testCase107.txt" id="s1-s81-s1" name="testCase107">
+<test id="s1-s81-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.448" starttime="20150308 17:52:27.446">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.449" starttime="20150308 17:52:27.444"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.451" starttime="20150308 17:52:27.442"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1070" id="s1-s82" name="testCase1070">
+<suite source="/home/marc/robot/testKeywords/testCase1070/testCase1070.txt" id="s1-s82-s1" name="testCase1070">
+<test id="s1-s82-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.468" starttime="20150308 17:52:27.467">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.469" starttime="20150308 17:52:27.460"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.471" starttime="20150308 17:52:27.457"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1071" id="s1-s83" name="testCase1071">
+<suite source="/home/marc/robot/testKeywords/testCase1071/testCase1071.txt" id="s1-s83-s1" name="testCase1071">
+<test id="s1-s83-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.479" starttime="20150308 17:52:27.478">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.480" starttime="20150308 17:52:27.476"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.484" starttime="20150308 17:52:27.473"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1072" id="s1-s84" name="testCase1072">
+<suite source="/home/marc/robot/testKeywords/testCase1072/testCase1072.txt" id="s1-s84-s1" name="testCase1072">
+<test id="s1-s84-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.498" starttime="20150308 17:52:27.495">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.500" starttime="20150308 17:52:27.491"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.502" starttime="20150308 17:52:27.487"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1073" id="s1-s85" name="testCase1073">
+<suite source="/home/marc/robot/testKeywords/testCase1073/testCase1073.txt" id="s1-s85-s1" name="testCase1073">
+<test id="s1-s85-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.509" starttime="20150308 17:52:27.508">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.510" starttime="20150308 17:52:27.506"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.512" starttime="20150308 17:52:27.503"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1074" id="s1-s86" name="testCase1074">
+<suite source="/home/marc/robot/testKeywords/testCase1074/testCase1074.txt" id="s1-s86-s1" name="testCase1074">
+<test id="s1-s86-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.519" starttime="20150308 17:52:27.518">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.520" starttime="20150308 17:52:27.516"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.522" starttime="20150308 17:52:27.513"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1075" id="s1-s87" name="testCase1075">
+<suite source="/home/marc/robot/testKeywords/testCase1075/testCase1075.txt" id="s1-s87-s1" name="testCase1075">
+<test id="s1-s87-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:27.529" starttime="20150308 17:52:27.528">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.530" starttime="20150308 17:52:27.526"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:27.532" starttime="20150308 17:52:27.523"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1076" id="s1-s88" name="testCase1076">
+<suite source="/home/marc/robot/testKeywords/testCase1076/testCase1076.txt" id="s1-s88-s1" name="testCase1076">
+<test id="s1-s88-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.588" starttime="20150308 17:52:28.584">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.592" starttime="20150308 17:52:27.536"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.594" starttime="20150308 17:52:27.533"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1077" id="s1-s89" name="testCase1077">
+<suite source="/home/marc/robot/testKeywords/testCase1077/testCase1077.txt" id="s1-s89-s1" name="testCase1077">
+<test id="s1-s89-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.609" starttime="20150308 17:52:28.606">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.611" starttime="20150308 17:52:28.598"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.618" starttime="20150308 17:52:28.596"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1078" id="s1-s90" name="testCase1078">
+<suite source="/home/marc/robot/testKeywords/testCase1078/testCase1078.txt" id="s1-s90-s1" name="testCase1078">
+<test id="s1-s90-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.625" starttime="20150308 17:52:28.624">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.626" starttime="20150308 17:52:28.622"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.628" starttime="20150308 17:52:28.620"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1079" id="s1-s91" name="testCase1079">
+<suite source="/home/marc/robot/testKeywords/testCase1079/testCase1079.txt" id="s1-s91-s1" name="testCase1079">
+<test id="s1-s91-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.635" starttime="20150308 17:52:28.634">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.636" starttime="20150308 17:52:28.632"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.638" starttime="20150308 17:52:28.629"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase108" id="s1-s92" name="testCase108">
+<suite source="/home/marc/robot/testKeywords/testCase108/testCase108.txt" id="s1-s92-s1" name="testCase108">
+<test id="s1-s92-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.645" starttime="20150308 17:52:28.644">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.646" starttime="20150308 17:52:28.642"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.647" starttime="20150308 17:52:28.639"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1080" id="s1-s93" name="testCase1080">
+<suite source="/home/marc/robot/testKeywords/testCase1080/testCase1080.txt" id="s1-s93-s1" name="testCase1080">
+<test id="s1-s93-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.654" starttime="20150308 17:52:28.653">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.656" starttime="20150308 17:52:28.651"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.657" starttime="20150308 17:52:28.649"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1081" id="s1-s94" name="testCase1081">
+<suite source="/home/marc/robot/testKeywords/testCase1081/testCase1081.txt" id="s1-s94-s1" name="testCase1081">
+<test id="s1-s94-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.664" starttime="20150308 17:52:28.663">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.665" starttime="20150308 17:52:28.661"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.667" starttime="20150308 17:52:28.659"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1082" id="s1-s95" name="testCase1082">
+<suite source="/home/marc/robot/testKeywords/testCase1082/testCase1082.txt" id="s1-s95-s1" name="testCase1082">
+<test id="s1-s95-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.674" starttime="20150308 17:52:28.673">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.675" starttime="20150308 17:52:28.671"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.677" starttime="20150308 17:52:28.669"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1083" id="s1-s96" name="testCase1083">
+<suite source="/home/marc/robot/testKeywords/testCase1083/testCase1083.txt" id="s1-s96-s1" name="testCase1083">
+<test id="s1-s96-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.684" starttime="20150308 17:52:28.683">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.685" starttime="20150308 17:52:28.681"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.687" starttime="20150308 17:52:28.679"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1084" id="s1-s97" name="testCase1084">
+<suite source="/home/marc/robot/testKeywords/testCase1084/testCase1084.txt" id="s1-s97-s1" name="testCase1084">
+<test id="s1-s97-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.694" starttime="20150308 17:52:28.693">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.695" starttime="20150308 17:52:28.691"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.697" starttime="20150308 17:52:28.688"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1085" id="s1-s98" name="testCase1085">
+<suite source="/home/marc/robot/testKeywords/testCase1085/testCase1085.txt" id="s1-s98-s1" name="testCase1085">
+<test id="s1-s98-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.704" starttime="20150308 17:52:28.703">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.705" starttime="20150308 17:52:28.701"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.707" starttime="20150308 17:52:28.699"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1086" id="s1-s99" name="testCase1086">
+<suite source="/home/marc/robot/testKeywords/testCase1086/testCase1086.txt" id="s1-s99-s1" name="testCase1086">
+<test id="s1-s99-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.714" starttime="20150308 17:52:28.713">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.715" starttime="20150308 17:52:28.711"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.717" starttime="20150308 17:52:28.709"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1087" id="s1-s100" name="testCase1087">
+<suite source="/home/marc/robot/testKeywords/testCase1087/testCase1087.txt" id="s1-s100-s1" name="testCase1087">
+<test id="s1-s100-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.724" starttime="20150308 17:52:28.723">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.725" starttime="20150308 17:52:28.721"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.727" starttime="20150308 17:52:28.718"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1088" id="s1-s101" name="testCase1088">
+<suite source="/home/marc/robot/testKeywords/testCase1088/testCase1088.txt" id="s1-s101-s1" name="testCase1088">
+<test id="s1-s101-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.734" starttime="20150308 17:52:28.733">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.735" starttime="20150308 17:52:28.731"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.737" starttime="20150308 17:52:28.728"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1089" id="s1-s102" name="testCase1089">
+<suite source="/home/marc/robot/testKeywords/testCase1089/testCase1089.txt" id="s1-s102-s1" name="testCase1089">
+<test id="s1-s102-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.744" starttime="20150308 17:52:28.742">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.745" starttime="20150308 17:52:28.740"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.747" starttime="20150308 17:52:28.738"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase109" id="s1-s103" name="testCase109">
+<suite source="/home/marc/robot/testKeywords/testCase109/testCase109.txt" id="s1-s103-s1" name="testCase109">
+<test id="s1-s103-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.754" starttime="20150308 17:52:28.752">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.755" starttime="20150308 17:52:28.750"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.756" starttime="20150308 17:52:28.748"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1090" id="s1-s104" name="testCase1090">
+<suite source="/home/marc/robot/testKeywords/testCase1090/testCase1090.txt" id="s1-s104-s1" name="testCase1090">
+<test id="s1-s104-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.763" starttime="20150308 17:52:28.762">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.765" starttime="20150308 17:52:28.760"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.766" starttime="20150308 17:52:28.758"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1091" id="s1-s105" name="testCase1091">
+<suite source="/home/marc/robot/testKeywords/testCase1091/testCase1091.txt" id="s1-s105-s1" name="testCase1091">
+<test id="s1-s105-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.794" starttime="20150308 17:52:28.791">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.798" starttime="20150308 17:52:28.770"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.804" starttime="20150308 17:52:28.768"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1092" id="s1-s106" name="testCase1092">
+<suite source="/home/marc/robot/testKeywords/testCase1092/testCase1092.txt" id="s1-s106-s1" name="testCase1092">
+<test id="s1-s106-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.815" starttime="20150308 17:52:28.814">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.816" starttime="20150308 17:52:28.812"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.818" starttime="20150308 17:52:28.809"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1093" id="s1-s107" name="testCase1093">
+<suite source="/home/marc/robot/testKeywords/testCase1093/testCase1093.txt" id="s1-s107-s1" name="testCase1093">
+<test id="s1-s107-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.825" starttime="20150308 17:52:28.824">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.826" starttime="20150308 17:52:28.822"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.827" starttime="20150308 17:52:28.819"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1094" id="s1-s108" name="testCase1094">
+<suite source="/home/marc/robot/testKeywords/testCase1094/testCase1094.txt" id="s1-s108-s1" name="testCase1094">
+<test id="s1-s108-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.834" starttime="20150308 17:52:28.833">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.836" starttime="20150308 17:52:28.831"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.838" starttime="20150308 17:52:28.829"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1095" id="s1-s109" name="testCase1095">
+<suite source="/home/marc/robot/testKeywords/testCase1095/testCase1095.txt" id="s1-s109-s1" name="testCase1095">
+<test id="s1-s109-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.845" starttime="20150308 17:52:28.844">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.846" starttime="20150308 17:52:28.841"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.848" starttime="20150308 17:52:28.839"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1096" id="s1-s110" name="testCase1096">
+<suite source="/home/marc/robot/testKeywords/testCase1096/testCase1096.txt" id="s1-s110-s1" name="testCase1096">
+<test id="s1-s110-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.854" starttime="20150308 17:52:28.853">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.856" starttime="20150308 17:52:28.851"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.857" starttime="20150308 17:52:28.849"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1097" id="s1-s111" name="testCase1097">
+<suite source="/home/marc/robot/testKeywords/testCase1097/testCase1097.txt" id="s1-s111-s1" name="testCase1097">
+<test id="s1-s111-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.864" starttime="20150308 17:52:28.863">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.865" starttime="20150308 17:52:28.861"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.867" starttime="20150308 17:52:28.859"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1098" id="s1-s112" name="testCase1098">
+<suite source="/home/marc/robot/testKeywords/testCase1098/testCase1098.txt" id="s1-s112-s1" name="testCase1098">
+<test id="s1-s112-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.874" starttime="20150308 17:52:28.873">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.875" starttime="20150308 17:52:28.871"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.877" starttime="20150308 17:52:28.869"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1099" id="s1-s113" name="testCase1099">
+<suite source="/home/marc/robot/testKeywords/testCase1099/testCase1099.txt" id="s1-s113-s1" name="testCase1099">
+<test id="s1-s113-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.884" starttime="20150308 17:52:28.883">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.885" starttime="20150308 17:52:28.881"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.887" starttime="20150308 17:52:28.878"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase11" id="s1-s114" name="testCase11">
+<suite source="/home/marc/robot/testKeywords/testCase11/testCase11.txt" id="s1-s114-s1" name="testCase11">
+<test id="s1-s114-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.904" starttime="20150308 17:52:28.902">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.905" starttime="20150308 17:52:28.896"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.906" starttime="20150308 17:52:28.893"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase110" id="s1-s115" name="testCase110">
+<suite source="/home/marc/robot/testKeywords/testCase110/testCase110.txt" id="s1-s115-s1" name="testCase110">
+<test id="s1-s115-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.927" starttime="20150308 17:52:28.925">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.928" starttime="20150308 17:52:28.918"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.929" starttime="20150308 17:52:28.908"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1100" id="s1-s116" name="testCase1100">
+<suite source="/home/marc/robot/testKeywords/testCase1100/testCase1100.txt" id="s1-s116-s1" name="testCase1100">
+<test id="s1-s116-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.936" starttime="20150308 17:52:28.935">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.938" starttime="20150308 17:52:28.933"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.947" starttime="20150308 17:52:28.931"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1101" id="s1-s117" name="testCase1101">
+<suite source="/home/marc/robot/testKeywords/testCase1101/testCase1101.txt" id="s1-s117-s1" name="testCase1101">
+<test id="s1-s117-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.954" starttime="20150308 17:52:28.953">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.956" starttime="20150308 17:52:28.951"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.957" starttime="20150308 17:52:28.949"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1102" id="s1-s118" name="testCase1102">
+<suite source="/home/marc/robot/testKeywords/testCase1102/testCase1102.txt" id="s1-s118-s1" name="testCase1102">
+<test id="s1-s118-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.964" starttime="20150308 17:52:28.963">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.965" starttime="20150308 17:52:28.961"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.967" starttime="20150308 17:52:28.959"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1103" id="s1-s119" name="testCase1103">
+<suite source="/home/marc/robot/testKeywords/testCase1103/testCase1103.txt" id="s1-s119-s1" name="testCase1103">
+<test id="s1-s119-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.974" starttime="20150308 17:52:28.972">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.975" starttime="20150308 17:52:28.970"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.976" starttime="20150308 17:52:28.968"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1104" id="s1-s120" name="testCase1104">
+<suite source="/home/marc/robot/testKeywords/testCase1104/testCase1104.txt" id="s1-s120-s1" name="testCase1104">
+<test id="s1-s120-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.983" star308 17:52:28.982">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.985" starttime="20150308 17:52:28.980"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.986" starttime="20150308 17:52:28.978"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1105" id="s1-s121" name="testCase1105">
+<suite source="/home/marc/robot/testKeywords/testCase1105/testCase1105.txt" id="s1-s121-s1" name="testCase1105">
+<test id="s1-s121-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:28.993" starttime="20150308 17:52:28.992">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.994" starttime="20150308 17:52:28.990"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:28.996" starttime="20150308 17:52:28.988"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1106" id="s1-s122" name="testCase1106">
+<suite source="/home/marc/robot/testKeywords/testCase1106/testCase1106.txt" id="s1-s122-s1" name="testCase1106">
+<test id="s1-s122-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:29.021" starttime="20150308 17:52:29.020">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:29.023" starttime="20150308 17:52:28.999"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:29.024" starttime="20150308 17:52:28.997"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1107" id="s1-s123" name="testCase1107">
+<suite source="/home/marc/robot/testKeywords/testCase1107/testCase1107.txt" id="s1-s123-s1" name="testCase1107">
+<test id="s1-s123-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:29.031" starttime="20150308 17:52:29.030">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:29.032" starttime="20150308 17:52:29.028"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:29.034" starttime="20150308 17:52:29.026"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1108" id="s1-s124" name="testCase1108">
+<suite source="/home/marc/robot/testKeywords/testCase1108/testCase1108.txt" id="s1-s124-s1" name="testCase1108">
+<test id="s1-s124-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:29.041" starttime="20150308 17:52:29.040">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:29.042" starttime="20150308 17:52:29.038"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:29.044" starttime="20150308 17:52:29.035"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1109" id="s1-s125" name="testCase1109">
+<suite source="/home/marc/robot/testKeywords/testCase1109/testCase1109.txt" id="s1-s125-s1" name="testCase1109">
+<test id="s1-s125-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:29.051" starttime="20150308 17:52:29.049">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:29.052" starttime="20150308 17:52:29.047"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:29.053" starttime="20150308 17:52:29.045"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase111" id="s1-s126" name="testCase111">
+<suite source="/home/marc/robot/testKeywords/testCase111/testCase111.txt" id="s1-s126-s1" name="testCase111">
+<test id="s1-s126-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:29.060" starttime="20150308 17:52:29.059">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:29.061" starttime="20150308 17:52:29.057"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:29.063" starttime="20150308 17:52:29.055"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1110" id="s1-s127" name="testCase1110">
+<suite source="/home/marc/robot/testKeywords/testCase1110/testCase1110.txt" id="s1-s127-s1" name="testCase1110">
+<test id="s1-s127-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:29.070" starttime="20150308 17:52:29.069">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:29.071" starttime="20150308 17:52:29.067"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:29.073" starttime="20150308 17:52:29.064"></status>
+</suite>
+<suite source="/home/marc/robot/testKeywords/testCase1111" id="s1-s128" name="testCase1111">
+<suite source="/home/marc/robot/testKeywords/testCase1111/testCase1111.txt" id="s1-s128-s1" name="testCase1111">
+<test id="s1-s128-s1-t1" name="Check sum">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20150308 17:52:29.080" starttime="20150308 17:52:29.079">Test execution stopped due to a fatal error.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150308 17:52:29.081" starttime="20150308 17:52:29.077"></status>
+</suite>
